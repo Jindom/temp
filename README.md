@@ -3,3 +3,5 @@
 BT.lst source shodan.io
 
 http.favicon.hash:-386189083 country:"HK" port:"888"
+
+cat json.file | jq . |grep "ip_str" | cut -d '"' -f 4
